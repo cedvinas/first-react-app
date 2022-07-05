@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Slider */
+.slider-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-content{
+  display: flex;
+}
+
+.slider-status-wrapper{
+  margin: 1rem;
+}
+
+.img {
+  width: 1000px;
+  height: 700px;
+  object-fit: cover;
+}
+
+.slider-bubble{
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+/* Slider */
