@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+.single-field{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.field{
+    display: flex;
+    flex-wrap: wrap;
+    width: 310px;
+    height: 310px;
+    justify-content: center;
+    align-items: center;
+}
